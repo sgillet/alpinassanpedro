@@ -7,12 +7,6 @@
 get_header(); ?>
 <div id="wrapper-content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-  <div class="content-headline-wrapper">
-    <div class="content-headline">
-      <h1><?php the_title(); ?></h1>
-<?php seasun_get_breadcrumb(); ?>
-    </div>
-  </div>
   <div class="container">
   <div id="main-content">
     <div id="content">
